@@ -1,0 +1,20 @@
+{
+  "name": "babel-plugin-development",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./scripts/build.js",
+    "start": "node ./dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "gzip-size": "^5.1.1",
+    "rollup": "^2.9.0",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
