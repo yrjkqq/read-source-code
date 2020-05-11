@@ -1,6 +1,5 @@
 const updateParamNameVisitor = {
   Identifier(path) {
-    console.log("updateParamNameVisitor: ", path.node.name)
     if (path.node.name === this.paramName) {
       path.node.name = "x";
     }

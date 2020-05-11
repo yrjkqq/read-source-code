@@ -15,6 +15,13 @@ const inputOptions = {
       plugins: babelPlugins.concat([
         require("./plugins/rename-n-to-x-recursive.js"),
         // require("./plugins/rename-n-to-x.js"),
+        // require("./plugins/rename-n-to-x.js"),
+        [
+          require("./plugins/first-plugin.js"),
+          {
+            option1: true,
+          },
+        ],
       ]),
     }),
 
