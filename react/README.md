@@ -6,3 +6,7 @@
 * [官方贡献指南](https://zh-hans.reactjs.org/docs/how-to-contribute.html)
 * [Inside Fiber: in-depth overview of the new reconciliation algorithm in React](https://indepth.dev/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react/)
 * [The how and why on React’s usage of linked list in Fiber to walk the component’s tree](https://indepth.dev/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-to-walk-the-components-tree/)
+
+## 辅助工具
+
+* 使用 Todo Tree VSC 插件，并自定义 tag: QUESTION 用于记录读源码过程中暂时遇到的疑惑
